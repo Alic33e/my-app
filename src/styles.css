@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar {
+    margin-bottom: 20px;
+  }
+
+  .gallery-container {
+    height: calc(100vh - 56px); /* Altura completa menos la altura del navbar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto; /* Agregar barra de desplazamiento vertical si es necesario */
+  }
+
+  .footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+  }
